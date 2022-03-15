@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "ES2018",
+		"lib": ["ES2018"],
+		"moduleResolution": "node",
+		"types": ["node"],
+		"module": "CommonJS",
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"forceConsistentCasingInFileNames": true,
+		"strictNullChecks": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"emitDecoratorMetadata": true,
+		"resolveJsonModule": true,
+		"stripInternal": true,
+		"baseUrl": "./"
+	},
+	"include": ["**/src/**/*.ts"],
+	"exclude": ["node_modules", "**/*.json"]
+}

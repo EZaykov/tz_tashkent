@@ -1,0 +1,42 @@
+{
+	"name": "tz_tashkent",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint . --ext .ts --quiet",
+		"format": "prettier --write .",
+    "http-cluster": "ts-node src/usecases/http-cluster.ts",
+    "http-single": "ts-node src/usecases/http-single.ts",
+    "ws-cluster": "ts-node src/usecases/ws-cluster.ts",
+    "ws-single": "ts-node src/usecases/ws-single.ts"
+	},
+	"engines": {
+		"node": "16.13.1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/lodash": "^4.14.179",
+		"@types/node": "^16.11.11",
+		"@types/ws": "^8.5.2",
+		"@types/yargs": "^17.0.9",
+		"@typescript-eslint/eslint-plugin": "^5.6.0",
+		"@typescript-eslint/parser": "^5.6.0",
+		"eslint": "^8.4.1",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-import-resolver-typescript": "^2.5.0",
+		"eslint-plugin-import": "^2.25.3",
+		"eslint-plugin-jest": "^25.3.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-spellcheck": "^0.0.19",
+		"prettier": "^2.5.1",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.3"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"ws": "^8.5.0",
+		"yargs": "^17.3.1"
+	}
+}
